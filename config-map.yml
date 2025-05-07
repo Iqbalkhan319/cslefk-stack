@@ -8,6 +8,6 @@ data:
     server.port: 5601
     server.host: "0.0.0.0"
     elasticsearch.hosts: [ "http://elasticsearch:9200" ]
-    elasticsearch.serviceAccountToken: "giveyourtoken"  # <- replace with real token
+    elasticsearch.serviceAccountToken: "AAEAAWVsYXN0aWMva2liYW5hL2tpYmFuYS10b2tlbjowNDZDODBISlR0bU9qa0NqNlRYaFNB"  # <- replace with real token
     monitoring.ui.container.elasticsearch.enabled: true
 
