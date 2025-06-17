@@ -1,8 +1,8 @@
 # Step 1: Set the default namespace to 'efk' for all kubectl commands
-kubectl config set-context --current --namespace=efk
+kubectl config set-context --current --namespace=elk
 
 # Step 2: Create the namespace (if it doesn't already exist)
-kubectl create ns efk
+kubectl create ns elk
 
 # Step 3: Clone the EFK stack manifests from your GitHub repo
 git clone https://github.com/Iqbalkhan319/cslefk-stack.git
