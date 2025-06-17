@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: app-event-simulator
-  namespace: efk
+  namespace: elk
   labels:
     name: app
 spec:

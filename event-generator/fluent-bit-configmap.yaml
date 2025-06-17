@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: fluent-bit
-  namespace: efk
+  namespace: elk
 data:
   custom_parsers.conf: |
     [PARSER]
